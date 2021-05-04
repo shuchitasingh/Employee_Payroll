@@ -11,7 +11,7 @@ public class EmployeePayrollService {
         this.employeePayrollList = employeePayrollList;
     }
 
-    private void writeEmployeePayrollData() {
+    void writeEmployeePayrollData() {
         System.out.println("\nWriting Employee Payroll Roaster to Console\n " + employeePayrollList);
     }
 
